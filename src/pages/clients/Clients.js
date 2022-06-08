@@ -1,5 +1,5 @@
 // styles
-import './Contact.css'
+import './Clients.css'
 
 import React from 'react'
 

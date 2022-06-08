@@ -1,2 +1,0 @@
-// styles
-import './Career.css'

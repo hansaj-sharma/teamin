@@ -11,3 +11,12 @@ body {
   margin: 0 210px;
   font-family: Poppins;
 }
+
+h1 {
+  color: var(--primary-heading);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}

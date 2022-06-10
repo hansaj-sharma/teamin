@@ -1,0 +1,35 @@
+.NavBarItems{
+    background-color:linear-gradient( 90deg,#007EC5 );
+    height: 80px;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    font-size:18px;  
+    font-weight: 500;
+} 
+
+.navbar-logo{
+    position: absolute;
+    left: 50px;
+     
+}
+
+.nav-menu{
+    display:flex;
+    flex-direction: row;
+    grid-gap:10px;
+    list-style: none;
+    text-align: center;
+    width: 800px;
+    justify-content: space-between;
+    left: 50px;
+}
+
+.nav-links{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1 rem;
+}
+.nav-links:hover{
+    color: #007EC5;
+}

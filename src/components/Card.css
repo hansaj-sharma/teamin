@@ -1,0 +1,41 @@
+.card {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.card-image {
+    margin: -1.7em auto;
+    background-color: var(--primary-blue);
+    padding: 8px 10px;
+    border-radius: 18px;
+    z-index: 10;
+}
+
+.card-image img {
+    filter: invert(100%);
+    height: 42px;
+}
+
+.card-content {
+    background-color: #F5F6F7;
+    padding: 25px 15px 15px 15px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04),
+        0 2px 4px rgba(0, 0, 0, 0.04),
+        0 4px 8px rgba(0, 0, 0, 0.04),
+        0 8px 16px rgba(0, 0, 0, 0.04),
+        0 16px 32px rgba(0, 0, 0, 0.04),
+        0 32px 64px rgba(0, 0, 0, 0.04);
+
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #636363;
+}

@@ -1,13 +1,13 @@
 export const MenuItems = [
     {
        title: 'Home',
-       url: '#',
+       url: '/home',
        cName: 'nav-links'
 
     },
     {
         title: 'About Us',
-        url: '#',
+        url: '/about',
         cName:'nav-links'
  
      },
@@ -22,28 +22,28 @@ export const MenuItems = [
 
      {
         title: 'Products',
-        url: '#',
+        url: '/products',
         cName:'nav-links'
  
      },
 
      {
         title: 'Clients',
-        url: '#',
+        url: '/clients',
         cName:'nav-links'
  
      },
  
      {
         title: 'Career',
-        url: '#',
+        url: '/career',
         cName:'nav-links'
  
      },
  
      {
         title: 'Contact Us',
-        url: '#',
+        url: '/contact',
         cName :'nav-links'
  
      }

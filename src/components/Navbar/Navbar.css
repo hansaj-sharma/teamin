@@ -1,5 +1,5 @@
 .NavBarItems{
-    background-color:linear-gradient( 90deg,#007EC5 );
+    /* background-color:linear-gradient( 90deg,#007EC5 ); */
     height: 80px;
     display: flex;
     justify-content:center ;

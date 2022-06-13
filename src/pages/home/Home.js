@@ -2,7 +2,7 @@
 import './Home.css'
 
 import React from 'react'
-import Card from '../../components/Card'
+//import Card from '../../components/Card'
 import { Button } from '../../components/Button'
 
 //import CloudComputing from '../../assets/cloud_computing.svg'

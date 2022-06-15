@@ -2,7 +2,7 @@
 import './Home.css'
 import React from 'react'
 //import Card from '../../components/Card'
- import { Button } from '../../components/Button'
+// import { Button } from '../../components/Button'
 
 //import CloudComputing from '../../assets/cloud_computing.svg'
  //const cardInfo = {
@@ -31,23 +31,23 @@ export default function Home() {
         } */}
 
 
-         <div className='btn-1'>
+        // <div className='btn-1'>
 
-            <Button onClick={() => { console.log("Clicked!");}}
-             type = "button"
-             buttonStyle = "btn--black--secondary"
-            buttonSize= 'btn--medium'
-            >
-            About us
-             </Button>
+        //     <Button onClick={() => { console.log("Clicked!");}}
+        //      type = "button"
+        //      buttonStyle = "btn--black--secondary"
+        //      buttonSize= 'btn--medium'
+        //     >
+        //     About us
+        //     </Button>
 
-          <Button onClick={() => { console.log("Clicked!");}}
-             type = "button"
-             buttonStyle = 'btn--grey--first'
-             buttonSize= 'btn-large'>
-             Services
-            </Button>   
-        </div>
+        //  <Button onClick={() => { console.log("Clicked!");}}
+        //      type = "button"
+        //      buttonStyle = 'btn--grey--first'
+        //      buttonSize= 'btn-large'>
+        //      Services
+        //     </Button>   
+        // </div>
 
         </section>
     )

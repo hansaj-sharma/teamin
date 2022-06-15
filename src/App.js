@@ -9,14 +9,12 @@ import Career from './pages/career/Career'
 import Clients from './pages/clients/Clients'
 import Contact from './pages/contact/Contact'
 import Products from './pages/products/Products'
-import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <h1> </h1>
+      <h1>This is heading....</h1>
       <BrowserRouter>
         <div className="container">
           <Routes>

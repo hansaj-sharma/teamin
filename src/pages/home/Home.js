@@ -1,6 +1,5 @@
 // styles
 import './Home.css'
-
 import React from 'react'
 //import Card from '../../components/Card'
 import { Button } from '../../components/Button'
@@ -13,12 +12,13 @@ import { Button } from '../../components/Button'
 //}
 export default function Home() {
     return (
-        <div className='hero'>
-            <div className='container'>
+        <section className='hero'>
+            <div className='main-area'>
             <h1>Simplify your working with TeamIn</h1>
             </div>
          <div className='innertext'>
-            <p>TeamIn Technologies (P) Ltd. is one of the most successful & diversified IT company.</p>
+            <p>TeamIn Technologies (P) Ltd. is one of the most successful</p>
+                <p>& diversified IT company.</p>
             </div>
             {/* { <div className='card-list'>
                 <Card cardInfo={cardInfo} />
@@ -49,6 +49,6 @@ export default function Home() {
             </Button>   
         </div>
 
-        </div>
+        </section>
     )
 }

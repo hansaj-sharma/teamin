@@ -6,6 +6,7 @@
     align-items:center ;
     font-size:18px;  
     font-weight: 500;
+   
 } 
 
 .navbar-logo{
@@ -23,6 +24,7 @@
     width: 800px;
     justify-content: space-between;
     left: 50px;
+    margin: 0px 210px;
 }
 
 .nav-links{

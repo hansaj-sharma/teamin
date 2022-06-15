@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container{
+    height: max-content;
+    /* background-color: lightblue; */
+    background-image: url(../../assets/Our\ products\(banner\).png);
+    background-size: cover;
+    height: 400px;
+    
+}

@@ -13,8 +13,6 @@ import CloudComputing from '../../assets/cloud_computing.svg'
 }
 export default function Home() {
     return (
-        <div className='hero'>
-            <div className='container'>
         <section className='hero'>
             <div className='region'>
             <div className='main-area'>

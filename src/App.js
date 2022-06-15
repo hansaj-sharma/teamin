@@ -11,13 +11,15 @@ import Contact from './pages/contact/Contact'
 import Products from './pages/products/Products'
 import Navbar from './components/Navbar/Navbar';
 
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>This is heading....</h1>
+      <h1></h1>
+
+      <Navbar/>
       <BrowserRouter>
         <div className="container">
           <Routes>

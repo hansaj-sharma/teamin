@@ -5,3 +5,17 @@
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+
+.hero{
+    height: 100px;
+    text-align: justify;
+    
+}
+
+.container{
+    padding-top: 50px;
+    padding-right: 100px;
+    width: 600px;
+   
+}
+

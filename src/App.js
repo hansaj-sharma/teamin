@@ -1,5 +1,5 @@
 import './App.css';
-
+import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 // pages
@@ -9,7 +9,8 @@ import Career from './pages/career/Career'
 import Clients from './pages/clients/Clients'
 import Contact from './pages/contact/Contact'
 import Products from './pages/products/Products'
-
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='products' element={<Products />} />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
     </div>

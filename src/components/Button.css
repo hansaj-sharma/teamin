@@ -1,0 +1,41 @@
+.btn{
+    font-weight: 400px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    transform: translate(-3px);
+}
+
+.btn--grey--first{
+    background-color: #E3E2DE;
+    color: black;
+    border-radius: 5px;
+    border: solid #E3E2DE;
+    margin: 10px;
+ 
+    
+}
+
+.btn--black--secondary{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn--outline--blue{
+    background-color: transparent;
+    border: 2px solid #007EC5;
+}
+
+/* button size */
+.btn--medium{
+ padding:  10px 15px;
+ font-size: 15px;
+}
+.btn--large{
+    padding: 10px 15px;
+    font-size: 15px;
+
+}

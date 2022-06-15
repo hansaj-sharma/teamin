@@ -7,8 +7,24 @@
 }
 
 .hero{
-    /* background-color:  #E3E2DE; */
-    /* text-align: justify; */
+
+    /* height: 100px;
+    text-align: justify; */
+    
+}
+
+.main-area{
+    padding-top: 50px;
+    padding-right: 100px;
+    width: 600px;
+   
+}
+
+.region{
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
      
 }
 
@@ -25,4 +41,5 @@
 }
 .btn-1{
     padding-top: 10px;
+
 }

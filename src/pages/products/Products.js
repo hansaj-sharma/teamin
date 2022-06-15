@@ -5,6 +5,12 @@ import React from 'react'
 
 export default function Products() {
     return (
-        <div>Products</div>
+
+        <section className="main-container">
+        <div className='picture-one'> 
+        </div>
+       
+        </section>
+        
     )
 }

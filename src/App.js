@@ -10,7 +10,7 @@ import Clients from './pages/clients/Clients'
 import Contact from './pages/contact/Contact'
 import Products from './pages/products/Products'
 import Navbar from './components/Navbar/Navbar';
-
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='products' element={<Products />} />
           </Routes>
+          <Footer/>
         </div>
       </BrowserRouter>
     </div>

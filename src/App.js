@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <h1></h1>
 
-      <Navbar/>
+      <Navbar />
       <BrowserRouter>
         <div className="container">
           <Routes>

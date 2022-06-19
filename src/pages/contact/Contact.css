@@ -1,0 +1,35 @@
+.contact-form {
+    max-width: 530px;
+}
+
+label {
+    display: block;
+    margin: 24px auto;
+}
+
+label span {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input,
+textarea {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 160px;
+}
+
+.contact-page-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0px 210px;
+}

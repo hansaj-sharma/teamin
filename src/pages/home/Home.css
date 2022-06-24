@@ -6,12 +6,20 @@
 
 }
 
+<<<<<<< Updated upstream
 
 /* .hero{
     /* height: 100px;
     text-align: justify; */
     
  */
+=======
+.hero{
+    /* height: 100px;
+    text-align: justify;
+     */
+}
+>>>>>>> Stashed changes
 
 .main-area{
     padding-top: 50px;

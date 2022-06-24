@@ -10,9 +10,13 @@ import Clients from './pages/clients/Clients'
 import Contact from './pages/contact/Contact'
 import Products from './pages/products/Products'
 import Navbar from './components/Navbar/Navbar';
+<<<<<<< Updated upstream
 
 // import Footer from './components/Footer'
 
+=======
+// import Footer from './components/Footer'
+>>>>>>> Stashed changes
 
 function App() {
   return (
@@ -30,9 +34,13 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='products' element={<Products />} />
           </Routes>
+<<<<<<< Updated upstream
 
           {/* <Footer/> */}
 
+=======
+          {/* <Footer/> */}
+>>>>>>> Stashed changes
         </div>
       </BrowserRouter>
     </div>
